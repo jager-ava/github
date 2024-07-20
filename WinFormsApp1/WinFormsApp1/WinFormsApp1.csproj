@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ApeFree.ApeForms.Core" Version="0.11.3" />
+    <PackageReference Include="ApeFree.ApeForms.Forms" Version="0.11.3" />
+    <PackageReference Include="STTech.BytesIO.Serial" Version="2.14.6" />
+    <PackageReference Include="STTech.BytesIO.Tcp" Version="2.14.6" />
+  </ItemGroup>
+
+</Project>
